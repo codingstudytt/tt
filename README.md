@@ -40,4 +40,4 @@ PR 제출시 랜덤으로 리뷰어를 할당하려고 해요.
 <br/>
 
 ## 📝 문제 보러가기
-
+https://github.com/codingTestStd/CoteAndAlgorithm/wiki
