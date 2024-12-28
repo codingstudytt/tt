@@ -1,0 +1,16 @@
+name: PR Review Notification
+
+on:
+  pull_request:
+    types: [review_requested]
+
+jobs:
+  notify:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: PR Review Notification
+        uses: oris-8/notification-pr-review@master
+        with:
+          token: ${{ secrets.SECRET_GITHUB_TOKEN }}
+          webhook_url: ${{ vars.WEBHOOK_URL }}
+          user_table: ${{vars.USER_TABLE}}
