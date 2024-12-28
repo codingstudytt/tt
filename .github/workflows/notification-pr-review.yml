@@ -9,7 +9,7 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - name: PR Review Notification
-        uses: oris-8/notification-pr-review@master
+        uses: JooKangsan/notification-pr-review@main
         with:
           token: ${{ secrets.SECRET_GITHUB_TOKEN }}
           webhook_url: ${{ vars.WEBHOOK_URL }}
