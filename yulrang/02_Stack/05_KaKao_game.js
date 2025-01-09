@@ -18,8 +18,6 @@ function solution(board, moves) {
               board[j][moves[i]-1] = 0;
               runBasket();
               break;
-          } else {
-              continue;
           }
       }
   }
